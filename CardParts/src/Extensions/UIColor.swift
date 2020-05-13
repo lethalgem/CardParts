@@ -8,9 +8,9 @@
 
 extension UIColor {
     
-    static var turboGenericGreyTextColor : UIColor {get{return UIColor.color(169, green: 169, blue: 169)}}
+    static var turboGenericGreyTextColor : UIColor {get{return UIColor.color(100, green: 100, blue: 100)}}
     static var turboCardPartTitleColor : UIColor {get{return UIColor.color(17, green: 17, blue: 17)}}
-    static var turboCardPartTextColor : UIColor {get{return UIColor.color(136, green: 136, blue: 136)}}
+    static var turboCardPartTextColor : UIColor {get{return UIColor.color(100, green: 100, blue: 100)}}
     static var cardPartAttributedTextColor : UIColor {get{return UIColor.color(0, green: 0, blue: 255)}}
 
     static var turboSeperatorColor : UIColor {get{return UIColor.color(221, green: 221, blue: 221)}}
