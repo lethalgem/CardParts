@@ -234,3 +234,77 @@ public class CardPartsTurboTheme: CardPartsTheme {
 
 }
 
+public class CardPartsAlbaTheme: CardPartsTheme {
+
+    public var cardsViewContentInsetTop: CGFloat = 10.0
+    public var cardsLineSpacing: CGFloat = 20
+
+    public var cardShadow: Bool = true
+    public var cardCellMargins: UIEdgeInsets = UIEdgeInsets(top: 0.0, left: 0.0, bottom: 10.0, right: 10.0)
+    public var cardPartMargins: UIEdgeInsets = UIEdgeInsets(top: 5.0, left: 15.0, bottom: 5.0, right: 15.0)
+
+    // CardPartSeparatorView
+    public var separatorColor: UIColor = UIColor.turboSeperatorColor
+    public var horizontalSeparatorMargins: UIEdgeInsets = UIEdgeInsets(top: 5.0, left: 0.0, bottom: 5.0, right: 0.0)
+
+    // CardPartTextView
+    public var smallTextFont: UIFont = UIFont.turboGenericFont(.x_Small)
+    public var smallTextColor: UIColor = UIColor.turboCardPartTextColor
+    public var normalTextFont: UIFont = UIFont.turboGenericFont(.large)
+    public var normalTextColor: UIColor = UIColor.turboCardPartTextColor
+    public var titleTextFont: UIFont = UIFont.turboGenericMediumFont(.medium)
+    public var titleTextColor: UIColor = UIColor.turboCardPartTitleColor
+    public var headerTextFont: UIFont = UIFont.turboGenericMediumFont(.x_Large)
+    public var headerTextColor: UIColor = UIColor.turboCardPartTitleColor
+    public var detailTextFont: UIFont = UIFont.turboGenericFont(.small)
+    public var detailTextColor: UIColor = UIColor.turboCardPartTextColor
+    
+    // CardPartAttributedTextView
+    public var smallAttributedTextFont: UIFont = UIFont.turboGenericFont(.x_Small)
+    public var smallAttributedTextColor: UIColor = UIColor.turboCardPartTextColor
+    public var normalAttributedTextFont: UIFont = UIFont.turboGenericFont(.normal)
+    public var normalAttributedTextColor: UIColor = UIColor.turboCardPartTextColor
+    public var titleAttributedTextFont: UIFont = UIFont.turboGenericMediumFont(.medium)
+    public var titleAttributedTextColor: UIColor = UIColor.turboCardPartTitleColor
+    public var headerAttributedTextFont: UIFont = UIFont.turboGenericFontBlack(.header)
+    public var headerAttributedTextColor: UIColor = UIColor.turboCardPartTitleColor
+    public var detailAttributedTextFont: UIFont = UIFont.turboGenericFont(.small)
+    public var detailAttributedTextColor: UIColor = UIColor.turboCardPartTextColor
+    
+    // CardPartTitleView
+    public var titleFont: UIFont = UIFont.turboGenericMediumFont(.medium)
+    public var titleColor: UIColor = UIColor.turboCardPartTitleColor
+    public var titleViewMargins: UIEdgeInsets = UIEdgeInsets(top: 5.0, left: 28.0, bottom: 10.0, right: 28.0)
+
+    // CardPartButtonView
+    public var buttonTitleFont: UIFont = UIFont.turboGenericFont(.large)
+    public var buttonTitleColor: UIColor = UIColor.turboBlueColor
+    public var buttonCornerRadius: CGFloat = CGFloat(0.0)
+
+    // CardPartBarView
+    public var barBackgroundColor: UIColor = UIColor.turboSeperatorGray
+    public var barColor: UIColor = UIColor.turboHeaderBlueColor
+    public var todayLineColor: UIColor = UIColor.Gray8
+    public var barHeight: CGFloat = 20.0
+    public var roundedCorners: Bool = true
+    public var showTodayLine: Bool = false
+
+    // CardPartTableView
+    public var tableViewMargins: UIEdgeInsets = UIEdgeInsets(top: 0.0, left: 28.0, bottom: 0.0, right: 28.0)
+
+    // CardPartTableViewCell and CardPartTitleDescriptionView
+    public var leftTitleFont: UIFont = UIFont.turboGenericFont(.large)
+    public var leftDescriptionFont: UIFont = UIFont.turboGenericFont(.large)
+    public var rightTitleFont: UIFont = UIFont.turboGenericFont(.large)
+    public var rightDescriptionFont: UIFont = UIFont.turboGenericFont(.large)
+    public var leftTitleColor: UIColor = UIColor.turboCardPartTitleColor
+    public var leftDescriptionColor: UIColor = UIColor.turboGenericGreyTextColor
+    public var rightTitleColor: UIColor = UIColor.turboCardPartTitleColor
+    public var rightDescriptionColor: UIColor = UIColor.turboGenericGreyTextColor
+    public var secondaryTitlePosition : CardPartSecondaryTitleDescPosition = .center(amount: 0.0)
+
+    public init() {
+        
+    }
+
+}
